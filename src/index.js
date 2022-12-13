@@ -1,4 +1,4 @@
-import debounce from "debounce";
+// import debounce from "debounce";
 
 const input = document.querySelector("input");
 const trackList = document.querySelector(".track-list");
@@ -7,8 +7,8 @@ let btnInfoBox;
 let infoBox = "";
 let activeBtnInfoBox;
 
-input.addEventListener("input", debounce(onInput, 1000));
-// input.addEventListener("input", onInput);
+// input.addEventListener("input", debounce(onInput, 1000));
+input.addEventListener("input", onInput);
 
 function onInput(event) {
   const searchQuery = event.target.value.trim();
