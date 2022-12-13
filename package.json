@@ -1,0 +1,25 @@
+{
+  "name": "tracks-search",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "parcel": "^2.8.1"
+  },
+  "devDependencies": {},
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KseniaLF/tracks-search.git"
+  },
+  "keywords": [],
+  "author": "Ksenia <llf9391@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KseniaLF/tracks-search/issues"
+  },
+  "homepage": "https://github.com/KseniaLF/tracks-search#readme"
+}
