@@ -6,7 +6,7 @@
     "parcel": "^2.8.1"
   },
   "devDependencies": {},
-  "source": "src/index.html",
+  "source": "index.html",
   "scripts": {
     "start": "parcel",
     "build": "parcel build"
