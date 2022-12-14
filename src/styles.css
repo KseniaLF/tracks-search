@@ -4,10 +4,11 @@ h1 {
 }
 
 body {
-    margin: 16px;
+    margin: 0;
     line-height: 1.5;
     color: #212121;
     font-family: sans-serif;
+    background-color: rgb(238, 247, 255);
 }
 
 p {
@@ -23,40 +24,89 @@ input {
 }
 
 .track-list {
+    /* outline: 3px solid purple; */
     margin: 0;
-    list-style: none;
-    padding: 24px;
+    /* padding: 24px; */
+}
+.track-info{
+    margin: 0;
+    padding: 20px;
+}
+.track-info:nth-child(2n+1){
+    background-color: rgb(204, 223, 240);
 }
 
-.track-list li:not(:last-child) {
-    margin-bottom: 16px;
+/* .block{
+    outline: 3px solid rgb(178, 209, 185);
+    display: flex; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* background-color: rgb(204, 223, 240);
+} */
+.info-box{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
 }
-
-/* ////////////////for table */
-table {
-    table-layout: fixed;
-    width: 85%;
-    border-collapse: collapse;
-    border: 3px solid purple;
-
+.track-block{
+    display: flex;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
-
-thead th:nth-child(1) {
-    width: 10%;
+.track-block li{
+    width: 20%;
 }
-
-thead th:nth-child(6) {
+.track-block li:last-child {
     width: 5%;
 }
 
-th,
-td {
-    padding: 20px;
+.track-list li:not(:last-child) {
+
+    /* margin-bottom: 16px; */
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+outline: 3px solid purple;
+padding: 24px;
+}
+
+/* caption-list */
+.container-caption{
+    padding-left: 20px;
+    padding-right: 20px
+}
+.caption-list {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.caption-list li {
+    width: 20%;
+}
+
+
+.caption-list li:last-child {
+    width: 5%;
+}
+
+
+
+/* ////////////////for table */
+
+.block:nth-child(2n+1){
+    /* position: absolute; */
+    /* background-color: black; */
 }
 
 /* ////////////////for table */
+
 
 .box {
     width: 100px;
@@ -72,7 +122,7 @@ td {
     background-color: inherit;
     border: none;
     width: 50px;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     text-align: center;
     text-decoration: none;
     display: inline-block;

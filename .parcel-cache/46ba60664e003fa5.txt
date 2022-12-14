@@ -1,8 +1,8 @@
-4213
+4217
 118D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb_copy.c121436361000000000 0
 57D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\src133154250954463608 1
 84D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\svgo\lib\style.js121436361000000000 0
-58D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist133154263791907145 1
+58D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist133155076922170703 1
 92D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\terser\lib\utils\index.js121436361000000000 0
 113D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@swc\helpers\src\_class_private_method_set.mjs132996204500000000 0
 95D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\svgo\plugins\inlineStyles.js121436361000000000 0
@@ -18,7 +18,7 @@
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\node-releases133154244104317228 1
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\graph133154244103788647 1
 91D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\terser\dist\package.json121436361000000000 0
-64D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\index.html133154253462276367 0
+64D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\index.html133155076011867234 0
 90D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\hash\browser.js121436361000000000 0
 75D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\css-tree133154244103918294 1
 83D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\has-flag\license121436361000000000 0
@@ -38,7 +38,7 @@
 97D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\xxhash-wasm\cjs\xxhash-wasm.js121436361000000000 0
 114D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features\chacha20-poly1305.js121436361000000000 0
 104D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lightningcss-win32-x64-msvc\README.md121436361000000000 0
-66D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\src\index.js133154263426429199 0
+66D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\src\index.js133155031848381781 0
 99D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\css-tree\lib\syntax\node\Rule.js121436361000000000 0
 85D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\htmlnano\docs\docs133154244051837588 1
 78D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\cosmiconfig133154244102472169 1
@@ -49,7 +49,7 @@
 85D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\term-size\index.js121436361000000000 0
 112D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features\x-doc-messaging.js121436361000000000 0
 83D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\terser\lib\utils133154244051259142 1
-68D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\src\styles.css133154254045830243 0
+68D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\src\styles.css133155076369469194 0
 73D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@babel133154244096318632 1
 104D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@swc\helpers\src\_new_arrow_check.mjs132996204500000000 0
 96D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\type-fest\source\mutable.d.ts121436361000000000 0
@@ -62,7 +62,7 @@
 116D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features\css-backdrop-filter.js121436361000000000 0
 77D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\nullthrows133154244104297288 1
 79D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\import-fresh133154244103968166 1
-80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.975ef6c8.js.map133154255142747871 0
+80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.975ef6c8.js.map133155076370976904 0
 92D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@babel\code-frame\LICENSE121012626000000000 0
 73D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@lezer133154244095121842 1
 79D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\open.js121436361000000000 0
@@ -1752,6 +1752,7 @@
 97D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\css-tree\lib\definition-syntax133154244062538971 1
 96D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\csso\lib\replace\Dimension.js121436361000000000 0
 79D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\LICENSE121436361000000000 0
+80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.1b75b73c.js.map133155076922170703 0
 119D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js121436361000000000 0
 81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\native.js121436361000000000 0
 114D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\csso\lib\restructure\prepare\processSelector.js121436361000000000 0
@@ -1866,6 +1867,7 @@
 113D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features\css-nth-child-of.js121436361000000000 0
 116D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile121436361000000000 0
 93D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\features133154244082685087 1
+77D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.78673ee4.css133155076922041040 0
 116D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\htmlnano\lib\modules\collapseBooleanAttributes.js121436361000000000 0
 113D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mdb.c121436361000000000 0
 105D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\core\src\public\BundleGraph.js121436361000000000 0
@@ -2723,6 +2725,7 @@
 115D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\runtime-js\lib\helpers\get-worker-url.js121436361000000000 0
 136D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased\index.js121436361000000000 0
 136D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\transformer-html\node_modules\posthtml-parser\dist\index.d.ts121436361000000000 0
+81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.78673ee4.css.map133155076922170703 0
 98D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\regions\KR.js121436361000000000 0
 128D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\@parcel\optimizer-image\parcel-image.linux-arm-gnueabihf.node121436361000000000 0
 98D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\caniuse-lite\data\regions\KZ.js121436361000000000 0
@@ -4200,15 +4203,16 @@
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\.bin\svgo.cmd133154244106351801 0
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\.bin\svgo.ps1133154244106341815 0
 78D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\node_modules\.bin\terser133154244106491414 0
+76D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.1b75b73c.js133155076922041040 0
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.3bb35ac3.js.map133154251314209766 0
-77D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.4d663569.css133154255142498525 0
-81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.4d663569.css.map133154255142528447 0
+77D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.4d663569.css133155076370867162 0
+81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.4d663569.css.map133155076370907079 0
 81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.7269d2f3.css.map133154251314209766 0
-76D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.975ef6c8.js133154255142727915 0
+76D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.975ef6c8.js133155076370946952 0
 76D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.9ca95fef.js133154263791847305 0
 80D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.cb988ea8.js.map133154255504089086 0
 77D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.d89fa336.css133154255503869613 0
 81D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.d89fa336.css.map133154255504089086 0
-69D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.html133154263791847305 0
+69D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\index.html133155076922041040 0
 84D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\tracks-search.59712999.js133154244479116667 0
 88D:\fKURSESS\Git\RepositoryCLON\practice\tracks-search\dist\tracks-search.59712999.js.map133154244479136627 0

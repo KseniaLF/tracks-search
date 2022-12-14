@@ -532,17 +532,15 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8lqZg":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _debounce = require("debounce");
-var _debounceDefault = parcelHelpers.interopDefault(_debounce);
+// import debounce from "debounce";
 const input = document.querySelector("input");
 const trackList = document.querySelector(".track-list");
 // 
 let btnInfoBox;
 let infoBox = "";
 let activeBtnInfoBox;
-input.addEventListener("input", (0, _debounceDefault.default)(onInput, 1000));
-// input.addEventListener("input", onInput);
+// input.addEventListener("input", debounce(onInput, 1000));
+input.addEventListener("input", onInput);
 function onInput(event) {
     const searchQuery = event.target.value.trim();
     console.log(searchQuery);
@@ -558,35 +556,39 @@ function fetchTracks(searchQuery) {
 function renderUserList(tracks) {
     // console.log(tracks)
     const markup = tracks.map((track)=>{
-        return `<tr>
-                <td><div class="box">
-                <img src=${track.artworkUrl100} alt="img">
-                </div></td>
-                <td>${track.artistName}</td>
-                <td>${track.trackName}</td>
-                <td>${track.collectionName}</td>
-                <td>${track.primaryGenreName}</td>
-                
-                <td><button class="btn-info-box" type="button">+</button></td>
-            </tr>
-            <tr class="info-box"></tr>`;
+        return `
+      <div class="track-info">
+        <ul class="track-block">
+          <li class="box">
+            <img src=${track.artworkUrl100} alt="img">
+          </li>
+          <li>${track.artistName}</li>
+          <li>${track.trackName}</li>
+          <li>${track.collectionName}</li>
+          <li>${track.primaryGenreName}</li>
+          <li><button class="btn-info-box" type="button">+</button></li>
+        </ul>
+
+        <ul class="info-box">
+        </ul>
+      </div>`;
     }).join("");
     trackList.innerHTML = markup;
     onDetailInfoClick(tracks);
 }
 function renderDetailInfo(track, i) {
-    const markup = `<td></td>
-  <td>
+    const markup = `
+  <li>
     <p>${track.artistName} - ${track.trackName}</p>
     <p>Collection: ${track.collectionName}</p>
     <p>Track Count: ${track.trackCount}</p>
     <p>Price: ${track.collectionPrice}</p>
-  </td>
-  <td></td>
-  <td>
+  </li>
+  
+  <li>
     <p>Track duration: ${track.trackTimeMillis}</p>
     <p>Track price: ${track.trackPrice}</p>
-  </td>`;
+  </li>`;
     console.log(track);
     infoBox[i].innerHTML = markup;
 }
@@ -612,97 +614,17 @@ function onDetailInfoClick(tracks) {
             infoBox[i].innerHTML = "";
         }
     });
-}
-
-},{"debounce":"6mekx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6mekx":[function(require,module,exports) {
-/**
- * Returns a function, that, as long as it continues to be invoked, will not
- * be triggered. The function will be called after it stops being called for
- * N milliseconds. If `immediate` is passed, trigger the function on the
- * leading edge, instead of the trailing. The function also has a property 'clear' 
- * that is a function which will clear the timer to prevent previously scheduled executions. 
- *
- * @source underscore.js
- * @see http://unscriptable.com/2009/03/20/debouncing-javascript-methods/
- * @param {Function} function to wrap
- * @param {Number} timeout in ms (`100`)
- * @param {Boolean} whether to execute at the beginning (`false`)
- * @api public
- */ function debounce(func, wait, immediate) {
-    var timeout, args, context, timestamp, result;
-    if (null == wait) wait = 100;
-    function later() {
-        var last = Date.now() - timestamp;
-        if (last < wait && last >= 0) timeout = setTimeout(later, wait - last);
-        else {
-            timeout = null;
-            if (!immediate) {
-                result = func.apply(context, args);
-                context = args = null;
-            }
-        }
-    }
-    var debounced = function() {
-        context = this;
-        args = arguments;
-        timestamp = Date.now();
-        var callNow = immediate && !timeout;
-        if (!timeout) timeout = setTimeout(later, wait);
-        if (callNow) {
-            result = func.apply(context, args);
-            context = args = null;
-        }
-        return result;
-    };
-    debounced.clear = function() {
-        if (timeout) {
-            clearTimeout(timeout);
-            timeout = null;
-        }
-    };
-    debounced.flush = function() {
-        if (timeout) {
-            result = func.apply(context, args);
-            context = args = null;
-            clearTimeout(timeout);
-            timeout = null;
-        }
-    };
-    return debounced;
-}
-// Adds compatibility for ES modules
-debounce.debounce = debounce;
-module.exports = debounce;
-
-},{}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+} // return `<tr class="block">
+ // <td><div class="box">
+ // <img src=${track.artworkUrl100} alt="img">
+ // </div></td>
+ // <td>${track.artistName}</td>
+ // <td>${track.trackName}</td>
+ // <td>${track.collectionName}</td>
+ // <td>${track.primaryGenreName}</td>
+ // <td><button class="btn-info-box" type="button">+</button></td>
+ //     <td class="info-box"></td>
+ // </tr>
 
 },{}]},["ShInH","8lqZg"], "8lqZg", "parcelRequiref1dc")
 

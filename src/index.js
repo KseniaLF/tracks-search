@@ -36,18 +36,22 @@ function renderUserList(tracks) {
   // console.log(tracks)
   const markup = tracks
     .map((track) => {
-      return `<tr>
-                <td><div class="box">
-                <img src=${track.artworkUrl100} alt="img">
-                </div></td>
-                <td>${track.artistName}</td>
-                <td>${track.trackName}</td>
-                <td>${track.collectionName}</td>
-                <td>${track.primaryGenreName}</td>
-                
-                <td><button class="btn-info-box" type="button">+</button></td>
-            </tr>
-            <tr class="info-box"></tr>`
+      return `
+      <div class="track-info">
+        <ul class="track-block">
+          <li class="box">
+            <img src=${track.artworkUrl100} alt="img">
+          </li>
+          <li>${track.artistName}</li>
+          <li>${track.trackName}</li>
+          <li>${track.collectionName}</li>
+          <li>${track.primaryGenreName}</li>
+          <li><button class="btn-info-box" type="button">+</button></li>
+        </ul>
+
+        <ul class="info-box">
+        </ul>
+      </div>`
     })
     .join("");
   trackList.innerHTML = markup;
@@ -56,18 +60,18 @@ function renderUserList(tracks) {
 }
 
 function renderDetailInfo(track, i) {
-  const markup = `<td></td>
-  <td>
+  const markup = `
+  <li>
     <p>${track.artistName} - ${track.trackName}</p>
     <p>Collection: ${track.collectionName}</p>
     <p>Track Count: ${track.trackCount}</p>
     <p>Price: ${track.collectionPrice}</p>
-  </td>
-  <td></td>
-  <td>
+  </li>
+  
+  <li>
     <p>Track duration: ${track.trackTimeMillis}</p>
     <p>Track price: ${track.trackPrice}</p>
-  </td>`
+  </li>`
   console.log(track)
   infoBox[i].innerHTML = markup;
   }
@@ -105,3 +109,21 @@ function onDetailInfoClick(tracks) {
     });
   }
 }
+
+
+
+
+            // return `<tr class="block">
+                // <td><div class="box">
+                // <img src=${track.artworkUrl100} alt="img">
+                // </div></td>
+                // <td>${track.artistName}</td>
+                // <td>${track.trackName}</td>
+                // <td>${track.collectionName}</td>
+                // <td>${track.primaryGenreName}</td>
+                
+                // <td><button class="btn-info-box" type="button">+</button></td>
+
+            //     <td class="info-box"></td>
+            // </tr>
+            
