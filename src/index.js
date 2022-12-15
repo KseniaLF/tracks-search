@@ -49,8 +49,8 @@ function renderUserList(tracks) {
           <li><button class="btn-info-box" type="button">+</button></li>
         </ul>
 
-        <ul class="info-box">
-        </ul>
+        <div class="info-box">
+        </div>
       </div>`
     })
     .join("");
@@ -61,17 +61,20 @@ function renderUserList(tracks) {
 
 function renderDetailInfo(track, i) {
   const markup = `
-  <li>
-    <p>${track.artistName} - ${track.trackName}</p>
-    <p>Collection: ${track.collectionName}</p>
-    <p>Track Count: ${track.trackCount}</p>
-    <p>Price: ${track.collectionPrice}</p>
-  </li>
-  
-  <li>
-    <p>Track duration: ${track.trackTimeMillis}</p>
-    <p>Track price: ${track.trackPrice}</p>
-  </li>`
+  <p class="info-box-caption">${track.artistName} - ${track.trackName}</p>
+  <ul class="info-box-list">
+    <li>
+      <p><b>Collection:</b> ${track.collectionName}</p>
+      <p><b>Track Count:</b> ${track.trackCount}</p>
+      <p><b>Price:</b> ${track.collectionPrice}</p>
+    </li>
+
+     <li>
+      <p><b>Track duration:</b> ${track.trackTimeMillis}</p>
+      <p><b>Track price:</b> ${track.trackPrice}</p>
+    </li>
+  </ul>   
+ `
   console.log(track)
   infoBox[i].innerHTML = markup;
   }
@@ -109,21 +112,3 @@ function onDetailInfoClick(tracks) {
     });
   }
 }
-
-
-
-
-            // return `<tr class="block">
-                // <td><div class="box">
-                // <img src=${track.artworkUrl100} alt="img">
-                // </div></td>
-                // <td>${track.artistName}</td>
-                // <td>${track.trackName}</td>
-                // <td>${track.collectionName}</td>
-                // <td>${track.primaryGenreName}</td>
-                
-                // <td><button class="btn-info-box" type="button">+</button></td>
-
-            //     <td class="info-box"></td>
-            // </tr>
-            
